@@ -11,7 +11,8 @@ Before running the project, ensure you have the following prerequisites installe
 - [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) - version 11 or higher.
 - [Node.js](https://nodejs.org/) - version 14 or higher. 
 - [npm](https://www.npmjs.com/) - This is included with Node.js.
-- [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) - Recommended for running and building the Spring Boot application.
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) - Recommended for running and building the backend4402 Spring Boot application.
+- [Visual Studio Code](https://code.visualstudio.com/download) - Used to develop the frontend4402 UI.
 
 ## Getting Started
 
@@ -25,7 +26,7 @@ Follow these steps to get the project up and running:
 
 ### Frontend (React)
 
-1. Open a terminal and navigate to the `frontend` directory in our project.
+1. Open a terminal and navigate to the `frontend` directory in our project, or open the frontend4402 folder in Visual Studio Code and open a new terminal. I used Visual Studio Code for all frontend development.
 
 2. Install project dependencies by running:
     
@@ -35,7 +36,7 @@ Follow these steps to get the project up and running:
 
     npm start
 
-This will start the frontend application on port 3000.
+This will start the frontend application on port 3000. Make modifications to the react project by using an editor like VSCode.
 
 ### Database Configuration
 
