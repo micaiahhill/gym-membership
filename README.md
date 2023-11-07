@@ -40,7 +40,7 @@ This will start the frontend application on port 3000.
 ### Database Configuration
 
 By default, this project uses an in-memory H2 SQL database for development. We configured the default database settings in `application.properties` file in the backend project.
-Two files load and populate the database, located under the resources folder in the backend. There is schema.sql and data.sql, which creates the schema and adds dummy data to the
+Two files load and populate the database, located under the resources folder in the backend. There is `schema.sql` and `data.sql`, which creates the schema and adds dummy data to the
 database. To create the schema and sample data for your database, you will need to change these files.
 
 ### Accessing the Application User Interface
@@ -51,7 +51,7 @@ database. To create the schema and sample data for your database, you will need 
 
 - Once you have the frontend and backend running, open your web browser and go to [http://localhost:8080/h2-console](http://localhost:8080/h2-console) to access the database console (not required).
 - While not required, using the h2 console can be helpful for testing the structure and integrity of your database. You can also run example queries here.
-- The credentials to login to the h2 console should be as follows: url: jdbc:h2:mem:example username: user (and no password, so leave blank)
+- The credentials to login to the h2 console should be as follows: url: `jdbc:h2:mem:example` username: `user` (and no password, so leave blank)
 - You can change the name of your database and the login credentials by changing the name (from example) in application properties.
 
 ### Additional Notes
